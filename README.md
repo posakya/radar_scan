@@ -41,8 +41,8 @@ Step 1. Add it in your root build.gradle at the end of repositories:
       <com.ar_tech.radar_scan_view.RadarView
         android:layout_centerInParent="true"
         android:id="@+id/radarView"
-        android:layout_width="@dimen/_300sdp"
-        android:layout_height="@dimen/_300sdp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
         />
         
   Step 5. Add this to your activity or use it on fragment to show circle and control the animation
