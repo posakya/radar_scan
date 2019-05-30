@@ -48,9 +48,9 @@ Step 1. Add it in your root build.gradle at the end of repositories:
   Step 5. Add this to your activity or use it on fragment to show circle and control the animation
      
       
-       RadarView radarView = null;
-       radarView = findViewById(R.id.radarView);
-       radarView.setShowCircles(true);
+       RadarView mRadarView = null;
+       mRadarView = findViewById(R.id.radarView);
+       mRadarView.setShowCircles(true);
       
        /*
        to start animation
